@@ -1,4 +1,5 @@
 import logoBosch from './assets/logo_bosch.png'
+import fundoBosch from './assets/Bosch-Supergraphic.svg'
 import './styles.css'
 
 function App() {
