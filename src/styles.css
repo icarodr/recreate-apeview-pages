@@ -23,13 +23,15 @@ body, html {
   align-items: center;
   justify-content: center;
   padding: 15px;
-  background-image: linear-gradient(to right, rgb(180, 38, 38), rgb(56, 56, 181), rgb(50, 152, 50));
+  background-image: url(./assets/Bosch-Supergraphic.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .wrap-login {
   width: 390px;
   background-color: rgb(255, 255, 255);
-  border-radius: 10px;
+  border-radius: 5px;
   overflow: hidden;
   padding: 77px 55px 33px 55px;
   box-shadow: 0 5px 10px 0px rgba(0, 0, 0, 0.2);
@@ -132,7 +134,7 @@ input{
 
 .txt2 {
   font-size: 14px;
-  color: #2340fc;
+  color: #74808a;
   line-height: 1.5;
-  text-decoration: none;
+  text-decoration: underline;
 }
