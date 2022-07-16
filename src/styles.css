@@ -64,13 +64,14 @@ input{
     height: 40px;
     border-radius: 15px;
     border: none;
+    outline: 0;
+
 }
 
 .input {
     font-size: 15px;
     color: #fff;
     line-height: 1.2;
-    border: none;
     display: block;
     width: 100%;
     height: 45px;
@@ -89,30 +90,6 @@ input{
   pointer-events: none;
   color: #adadad;
   font-family: Nunito, sans-serif;
-}
-
-.focus-input::before {
-  content: "";
-  display: block;
-  position: absolute;
-  bottom: -2px;
-  left: 0;
-  width: 0;
-  height: 2px;
-}
-
-.focus-input::after {
-  font-family: Nunito, sans-serif;
-  font-size: 15px;
-  color: #999999;
-  line-height: 1.2;
-  content: attr(data-placeholder);
-  display: block;
-  width: 100%;
-  position: absolute;
-  top: 16px;
-  left: 0px;
-  padding-left: 5px;
 }
 
 .container-login-form-btn {
